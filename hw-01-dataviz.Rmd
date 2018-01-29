@@ -1,0 +1,34 @@
+---
+title: "HW 01 - Data visualization"
+author: "[TEAM NAME]"
+date: "[DATE]"
+output: 
+  html_document: 
+    fig_height: 4
+    highlight: pygments
+    keep_md: yes
+    theme: sandstone
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+**Use this template if you will be using R for your assignment. However you're welcomed to use other software as well.**
+
+Load packages:
+
+```{r load-packages, message=FALSE}
+library(tidyverse)
+```
+
+Load data (uncomment the dataset you're assigned):
+
+```{r load-data, message=FALSE}
+#fishing <- read_csv("data/Fishing_industry_by_country.csv")
+#ise <- read_csv("data/InstructionalStaffEmployTrends.csv")
+#nerrs <- read_csv("data/NERRS Nutrient Data.csv")
+```
+
+Add code chunks and text as needed to complete your assignment:
+
